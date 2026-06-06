@@ -1,0 +1,34 @@
+.DS_Store
+
+# Local build and tool output
+DerivedData/
+build/
+Build/
+out/
+dist/
+tmp/
+*.log
+*.tmp
+
+# Object files and generated binaries
+*.dSYM/
+*.o
+*.a
+*.dylib
+
+# Generated kernel extension products. Upstream-tracked XNU source lives in the
+# sibling XNU repo, not here.
+*.kext
+*.kext/
+
+# Apple SDK/KDK material must stay outside Git.
+SDKs/
+KDKs/
+*.sdk
+*.sdk/
+*.kdk
+*.kdk/
+
+# Xcode output
+*.xcresult/
+*.xcarchive/
